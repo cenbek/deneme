@@ -13,8 +13,8 @@ describe "searc.feature" do
   end
   
   it "I search for 'ruby' in the textbox named 'txtsearch'" do
-    page.fill_in 'txtsearch', :with => 'Ruby'
-    page.click_button("btnsearch") 
+    #page.fill_in 'txtsearch', :with => 'Ruby'
+    
   end
   
   
